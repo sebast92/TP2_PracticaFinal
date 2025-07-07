@@ -1,0 +1,80 @@
+[
+	{
+		"champ": "Aatrox",
+		"items": [
+			"1001",
+			"1002",
+			"1003",
+			"1004"
+		],
+		"id": "1",
+		"win_rate": 0.45
+	},
+	{
+		"champ": "Ahri",
+		"items": [
+			"1001",
+			"1002",
+			"1003"
+		],
+		"id": "2",
+		"win_rate": 0.55
+	},
+	{
+		"champ": "Braum",
+		"items": [
+			"1001"
+		],
+		"id": "3",
+		"win_rate": 0.6617768832302815
+	},
+	{
+		"champ": "Camille",
+		"items": [
+			"1038"
+		],
+		"id": "4",
+		"win_rate": 0.2636904384040568
+	},
+	{
+		"champ": "Annie",
+		"items": [
+			"1001"
+		],
+		"id": "5",
+		"win_rate": 0.9196387419905203
+	},
+	{
+		"champ": "Akshan",
+		"items": [
+			"1039"
+		],
+		"id": "6",
+		"win_rate": 0.8339683676177212
+	},
+	{
+		"champ": "Fiddlesticks",
+		"items": [
+			"1004"
+		],
+		"id": "7",
+		"win_rate": 0.3719417184476479
+	},
+	{
+		"champ": "Akshan",
+		"items": [
+			null
+		],
+		"id": "8",
+		"win_rate": 0.006138251404731898
+	},
+	{
+		"champ": "Akshan",
+		"items": [
+			null,
+			"1033"
+		],
+		"id": "9",
+		"win_rate": 0.3436045690096068
+	}
+]

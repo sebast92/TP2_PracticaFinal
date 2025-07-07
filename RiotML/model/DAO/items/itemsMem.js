@@ -1,0 +1,22 @@
+
+class ModelMem {
+    #items
+
+    constructor() {
+        this.#items = {"1001":{"name":"Boots","description":"<mainText><stats><attention>25</attention> Move Speed</stats><br><br></mainText>","colloq":";","plaintext":"Slightly increases Move Speed","into":["3005","3047","3006","3009","3010","3020","3111","3117","3158"],"image":{"full":"1001.png","sprite":"item0.png","group":"item","x":0,"y":0,"w":48,"h":48},"gold":{"base":300,"purchasable":true,"total":300,"sell":210},"tags":["Boots"],"maps":{"11":true,"12":true,"21":true,"22":false,"30":false,"33":false,"35":true},"stats":{"FlatMovementSpeedMod":25}},"1004":{"name":"Faerie Charm","description":"<mainText><stats><attention>50%</attention> Base Mana Regen</stats><br><br></mainText>","colloq":";","plaintext":"Slightly increases Mana Regen","into":["3114","3012","4642"],"image":{"full":"1004.png","sprite":"item0.png","group":"item","x":48,"y":0,"w":48,"h":48},"gold":{"base":200,"purchasable":true,"total":200,"sell":140},"tags":["ManaRegen"],"maps":{"11":true,"12":true,"21":true,"22":false,"30":false,"33":false,"35":true},"stats":{}},"1006":{"name":"Rejuvenation Bead","description":"<mainText><stats><attention>100%</attention> Base Health Regen</stats><br><br></mainText>","colloq":";","plaintext":"Slightly increases Health Regen","into":["3109","3211","323109","3801"],"image":{"full":"1006.png","sprite":"item0.png","group":"item","x":96,"y":0,"w":48,"h":48},"gold":{"base":300,"purchasable":true,"total":300,"sell":120},"tags":["HealthRegen"],"maps":{"11":true,"12":true,"21":true,"22":false,"30":false,"33":false,"35":true},"stats":{}},"1011":{"name":"Giant's Belt","description":"<mainText><stats><attention>350</attention> Health</stats><br><br></mainText>","colloq":";","plaintext":"Greatly increases Health","from":["1028"],"into":["4637","3084","2502","3083","3116","3119","3143","323119","3748","6665","6609","6667","8001"],"image":{"full":"1011.png","sprite":"item0.png","group":"item","x":144,"y":0,"w":48,"h":48},"gold":{"base":500,"purchasable":true,"total":900,"sell":630},"tags":["Health"],"maps":{"11":true,"12":true,"21":true,"22":false,"30":false,"33":false,"35":true},"stats":{"FlatHPPoolMod":350},"depth":2},"1018":{"name":"Cloak of Agility","description":"<mainText><stats><attention>15%</attention> Critical Strike Chance</stats><br><br></mainText>","colloq":";","plaintext":"Increases critical strike chance","into":["3031","3086","6670","3033","3508","3095","6676"],"image":{"full":"1018.png","sprite":"item0.png","group":"item","x":192,"y":0,"w":48,"h":48},"gold":{"base":600,"purchasable":true,"total":600,"sell":420},"tags":["CriticalStrike"],"maps":{"11":true,"12":true,"21":true,"22":false,"30":false,"33":false,"35":true},"stats":{"FlatCritChanceMod":0.15}},"1026":{"name":"Blasting Wand","description":"<mainText><stats><attention>45</attention> Ability Power</stats><br><br></mainText>","colloq":";","plaintext":"Moderately increases Ability Power","into":["326621","4637","4628","3135","3115","3100","3116","3118","3165","326657","6621","6657"],"image":{"full":"1026.png","sprite":"item0.png","group":"item","x":240,"y":0,"w":48,"h":48},"gold":{"base":850,"purchasable":true,"total":850,"sell":595},"tags":["SpellDamage"],"maps":{"11":true,"12":true,"21":true,"22":false,"30":false,"33":false,"35":true},"stats":{"FlatMagicDamageMod":45}},"1027":{"name":"Sapphire Crystal","description":"<mainText><stats><attention>300</attention> Mana</stats><br><br></mainText>","colloq":";blue","plaintext":"Increases Mana","into":["3024","3802","3803"],"image":{"full":"1027.png","sprite":"item0.png","group":"item","x":288,"y":0,"w":48,"h":48},"gold":{"base":300,"purchasable":true,"total":300,"sell":210},"tags":["Mana"],"maps":{"11":true,"12":true,"21":true,"22":false,"30":false,"33":false,"35":true},"stats":{"FlatMPPoolMod":300}}}
+//        [
+            // { id: '1',  nombre: 'TV',       precio: 1234.56,    stock: 55 },
+            // { id: '2',  nombre: 'Mesa',     precio: 2345.67,    stock: 77 },
+            // { id: '3',  nombre: 'Mouse',    precio: 3456.78,    stock: 99 },
+  //      ]
+    }
+
+    obtenerItems = async () => this.#items
+
+    obtenerItem = async id => {
+        const item = this.#items[id]
+        return item || {}
+    }
+}
+
+export default ModelMem

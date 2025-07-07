@@ -1,0 +1,254 @@
+[
+	{
+		"blue": {
+			"top": "Aatrox",
+			"jungle": "Viego",
+			"mid": "Annie",
+			"bot": "Senna",
+			"support": "Lulu"
+		},
+		"red": {
+			"top": "Dr.Mundo",
+			"jungle": "Trundle",
+			"mid": "Ryze",
+			"bot": "Jinx",
+			"support": "Braum"
+		},
+		"id": "1",
+		"win_rate": 0.45
+	},
+	{
+		"blue": {
+			"top": "Volibear",
+			"jungle": "Ivern",
+			"mid": "Cassandra",
+			"bot": "Jin",
+			"support": "Sonna"
+		},
+		"red": {
+			"top": "Darius",
+			"jungle": "Kindred",
+			"mid": "LeBlanc",
+			"bot": "Kaisa",
+			"support": "Morgana"
+		},
+		"id": "2",
+		"win_rate": 0.55
+	},
+	{
+		"blue": {
+			"top": "Akshan",
+			"jungle": "Diana",
+			"mid": "Ahri",
+			"bot": "Aphelios",
+			"support": "Bard"
+		},
+		"red": {
+			"top": "Camille",
+			"jungle": "Morgana",
+			"mid": "Azir",
+			"bot": "Draven",
+			"support": "Janna"
+		},
+		"id": "3",
+		"win_rate": 0.7025074762687191
+	},
+	{
+		"blue": {
+			"top": "Blitzcrank",
+			"jungle": "Cassiopeia",
+			"mid": "Annie",
+			"bot": "Aatrox",
+			"support": "Fiora"
+		},
+		"red": {
+			"top": "Azir",
+			"jungle": "Camille",
+			"mid": "Darius",
+			"bot": "Draven",
+			"support": "Galio"
+		},
+		"id": "4",
+		"win_rate": 0.5944635592002241
+	},
+	{
+		"blue": {
+			"top": "Blitzcrank",
+			"jungle": "Camille",
+			"mid": "Cassiopeia",
+			"bot": "Darius",
+			"support": "Fiddlesticks"
+		},
+		"red": {
+			"top": "Belveth",
+			"jungle": "Chogath",
+			"mid": "Draven",
+			"bot": "Ekko",
+			"support": "Ezreal"
+		},
+		"id": "5",
+		"win_rate": 0.49470262776461404
+	},
+	{
+		"blue": {
+			"top": "Blitzcrank",
+			"jungle": "Cassiopeia",
+			"mid": "Darius",
+			"bot": "DrMundo",
+			"support": "Ezreal"
+		},
+		"red": {
+			"top": "Belveth",
+			"jungle": "Ahri",
+			"mid": "Draven",
+			"bot": "Elise",
+			"support": "Fiddlesticks"
+		},
+		"id": "6",
+		"win_rate": 0.30334635597409454
+	},
+	{
+		"blue": {
+			"top": "Bard",
+			"jungle": "Cassiopeia",
+			"mid": "Camille",
+			"bot": "Diana",
+			"support": "Elise"
+		},
+		"red": {
+			"top": "Blitzcrank",
+			"jungle": "Aatrox",
+			"mid": "Draven",
+			"bot": "Fiddlesticks",
+			"support": "Brand"
+		},
+		"id": "7",
+		"win_rate": 0.9004695217772516
+	},
+	{
+		"blue": {
+			"top": "Brand",
+			"jungle": "Chogath",
+			"mid": "Caitlyn",
+			"bot": "Draven",
+			"support": "Ezreal"
+		},
+		"red": {
+			"top": "Belveth",
+			"jungle": "Aatrox",
+			"mid": "Darius",
+			"bot": "Ekko",
+			"support": "Fizz"
+		},
+		"id": "8",
+		"win_rate": 0.16885949506724418
+	},
+	{
+		"blue": {
+			"top": "Camille",
+			"jungle": "Corki",
+			"mid": "Briar",
+			"bot": "Draven",
+			"support": "Elise"
+		},
+		"red": {
+			"top": "Cassiopeia",
+			"jungle": "Diana",
+			"mid": "Chogath",
+			"bot": "Ekko",
+			"support": "Azir"
+		},
+		"id": "9",
+		"win_rate": 0.4994977607808331
+	},
+	{
+		"blue": {
+			"top": "Annie",
+			"jungle": "Aphelios",
+			"mid": "Amumu",
+			"bot": "Brand",
+			"support": "Ezreal"
+		},
+		"red": {
+			"top": "Ambessa",
+			"jungle": "Akshan",
+			"mid": "Aurora",
+			"bot": "Draven",
+			"support": "Ashe"
+		},
+		"id": "10",
+		"win_rate": 0.08153248687434944
+	},
+	{
+		"blue": {
+			"top": "Annie",
+			"jungle": "Aphelios",
+			"mid": "Amumu",
+			"bot": "Brand",
+			"support": "Ezreal"
+		},
+		"red": {
+			"top": "Ambessa",
+			"jungle": "Akshan",
+			"mid": "Aurora",
+			"bot": "Draven",
+			"support": "Ashe"
+		},
+		"id": "11",
+		"win_rate": 0.44408821636491913
+	},
+	{
+		"blue": {
+			"top": "Annie",
+			"jungle": "Corki",
+			"mid": "Chogath",
+			"bot": "Caitlyn",
+			"support": "Elise"
+		},
+		"red": {
+			"top": "Akshan",
+			"jungle": "Camille",
+			"mid": "Diana",
+			"bot": "Cassiopeia",
+			"support": "Ezreal"
+		},
+		"id": "12",
+		"win_rate": 0.5253173647200138
+	},
+	{
+		"blue": {
+			"top": "Aurora",
+			"jungle": "Camille",
+			"mid": "Ahri",
+			"bot": "Cassiopeia",
+			"support": "Fiora"
+		},
+		"red": {
+			"top": "Chogath",
+			"jungle": "Blitzcrank",
+			"mid": "Darius",
+			"bot": "Ekko",
+			"support": "Fiddlesticks"
+		},
+		"id": "13",
+		"win_rate": 0.14634269294740831
+	},
+	{
+		"blue": {
+			"top": "Camille",
+			"jungle": "Azir",
+			"mid": "Garen",
+			"bot": "Corki",
+			"support": "Evelynn"
+		},
+		"red": {
+			"top": "Darius",
+			"jungle": "Akshan",
+			"mid": "Draven",
+			"bot": "Diana",
+			"support": "Fiddlesticks"
+		},
+		"id": "14",
+		"win_rate": 0.23488225787864336
+	}
+]
